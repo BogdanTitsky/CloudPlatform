@@ -1,7 +1,5 @@
 {
-    "name": "react-webpack-setup",
     "version": "1.0.0",
-    "description": "Simple step by step walkthrough of setting up a React app with Webpack",
     "main": "index.js",
     "scripts": {
         "build": "webpack --mode production --open",
@@ -9,15 +7,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jsramblings/react-webpack-setup.git"
+        "url": "https://github.com/BogdanTitsky/CloudPlatform"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/jsramblings/react-webpack-setup/issues"
-    },
-    "homepage": "https://github.com/jsramblings/react-webpack-setup#readme",
+    "homepage": "https://bogdantitsky.github.io/CloudPlatform/",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@babel/preset-env": "^7.18.2",
