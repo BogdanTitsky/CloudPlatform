@@ -1,9 +1,10 @@
 {
+    "name": "cloudplatform",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "build": "webpack --mode production --open",
-        "start": "webpack serve --mode development"
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development --open"
     },
     "repository": {
         "type": "git",
@@ -16,6 +17,7 @@
         "@babel/preset-env": "^7.18.2",
         "@babel/preset-react": "^7.17.12",
         "babel-loader": "^8.2.5",
+        "gh-pages": "^6.0.0",
         "html-webpack-plugin": "^5.5.0",
         "webpack": "^5.73.0",
         "webpack-cli": "^4.9.2",
